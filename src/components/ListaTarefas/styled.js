@@ -12,7 +12,7 @@ export const ListaTarefasContainer = styled.div`
   border-bottom-left-radius: 15px;
 `;
 
-export const InputContainer = styled.div`
+export const InputContainer = styled.form`
   padding: 2rem;
   width: 100%;
   background-color: #4e5abc;
@@ -65,6 +65,21 @@ export const Tarefa = styled.li`
   transition: background-color 0.3s;
   &:hover {
     background-color: lightblue;
+  }
+`;
+
+export const TarefaCom = styled.li`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 6px 8px;
+  transition: background-color 0.3s;
+  text-decoration-line: line-through;
+  &:hover {
+    background-color: lightcoral;
   }
 `;
 
